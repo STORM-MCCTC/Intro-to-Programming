@@ -7,7 +7,7 @@ def my_recursion():
         my_recursion()
     elif(choice == "n"):
         print("Have a nice day")
-    else:
         exit()
+    else:
         my_recursion()
 my_recursion()
