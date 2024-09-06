@@ -99,7 +99,6 @@ while running:
 
         mouse_pos = pygame.mouse.get_pos()
         if event.type == pygame.MOUSEBUTTONDOWN:
-            print("Fish Clicked")
             if 150 <= mouse_pos[0] <= 250 and 100 <= mouse_pos[1] <= 200:  # Check if click is inside image area
                 score += 1  # Increment score on image click
 
